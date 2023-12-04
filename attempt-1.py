@@ -44,7 +44,7 @@ def fun_tobacco():
     while mutex_lock.acquire(blocking=False):  # Keep trying to acquire the lock
     #if we aquire lock we exit the loop
     #blocking parameter allows us to stay in loop until we aquire lock
-    	pass
+    	#pass
     #CS Starts
     print("Tobacco smoker is smoking...")
     time.sleep(2)
@@ -57,7 +57,7 @@ def fun_paper():
     while mutex_lock.acquire(blocking=False):  # Keep trying to acquire the lock
     #if we aquire lock we exit the loop
     #blocking parameter allows us to stay in loop until we aquire lock
-    	pass
+    	#pass
     #CS Starts
     print("Paper smoker is smoking...")
     time.sleep(2)
@@ -69,7 +69,7 @@ def fun_matches():
     while mutex_lock.acquire(blocking=False):  # Keep trying to acquire the lock
     #if we aquire lock we exit the loop
     #blocking parameter allows us to stay in loop until we aquire lock
-    	pass
+    	#pass
     #CS Starts
     print("Matches smoker is smoking...")
     time.sleep(2)
